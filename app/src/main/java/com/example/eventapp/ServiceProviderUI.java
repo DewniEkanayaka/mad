@@ -17,4 +17,14 @@ public class ServiceProviderUI extends AppCompatActivity {
         Intent intent = new Intent(this, UpdateProfile.class);
         startActivity(intent);
     }
+
+    public void LogOut(View view){
+        Intent intent = new Intent(this, ServiceProviderUI.class);
+        startActivity(intent);
+    }
+
+    public void Events(View view){
+        Intent intent = new Intent(this, Events.class);
+        startActivity(intent);
+    }
 }

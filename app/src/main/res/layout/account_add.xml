@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#004d4d"
+    android:background="#476b6b"
     tools:context=".AddAccount">
 
     <TextView
@@ -83,12 +83,18 @@
         android:layout_marginBottom="8dp"
         android:background="#99ffcc"
         android:onClick="onClick"
+        android:padding="10dp"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
         android:text="SIGN UP!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.893" />
+
 
     <TextView
         android:id="@+id/textView"
