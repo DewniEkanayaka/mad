@@ -5,10 +5,10 @@
         <shape android:shape="rectangle">
             <!--corners allow us to make the rounded corners button-->
             <solid
-                android:color="#ACADA8"/>
+                android:color="#99ffcc"/>
 
             <stroke
-                android:color="#CEA9B1"
+                android:color="#264242"
                 android:width="2dp" />
 
             <corners
